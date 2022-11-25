@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Monrope", sans-serif;
+    background-color: hsl(218, 23%, 16%);
+    font-size: 16px;
+    text-align: center;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 0.1px);
+}
+.container {
+    background-color: hsl(217, 19%, 24%);
+    padding: 1.85rem 1.25rem 3rem;
+    color: #fff;
+    border-radius: 1.25rem;
+    position: relative;
+}
+.container h1 {
+    color: hsl(150, 100%, 66%);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+    letter-spacing: 0.4rem;
+}
+.container p {
+    color:hsl(193, 38%, 86%);
+    font-size: 28px;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+.container picture img {
+    margin-bottom: 1rem;
+}
+.container button {
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+    border-radius: 50%;
+    padding: 1.25rem;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.container button:hover {
+    background-color: hsl(150, 51%, 49%);
+}
+.attribution {
+     color: hsl(193, 38%, 86%); 
+     font-size: 11px; 
+     text-align: center; 
+     margin-top: 6rem;
+}
+.attribution a { 
+    color: hsl(150, 100%, 66%);
+    transition: color 0.3s ease-in-out; 
+    text-decoration: none;
+}
+.attribution a:hover { 
+    color: hsl(150, 36%, 41%); 
+}
